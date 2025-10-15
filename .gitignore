@@ -1,0 +1,18 @@
+# Ignore temp files
+*.log
+*.tmp
+
+# Ignore other folders
+text.txt
+
+threejs-2nd/node_modules/
+threejs-2nd/package-lock.json
+threejs-2nd/package.json
+
+threejs-3rd/node_modules/
+threejs-3rd/package-lock.json
+threejs-3rd/package.json
+
+threejs-4th/node_modules/
+threejs-4th/package-lock.json
+threejs-4th/package.json
