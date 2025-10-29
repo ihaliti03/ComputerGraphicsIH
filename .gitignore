@@ -3,7 +3,6 @@
 *.tmp
 
 # Ignore other folders
-text.txt
 
 threejs-2nd/node_modules/
 threejs-2nd/package-lock.json
@@ -20,3 +19,9 @@ threejs-4th/package.json
 threejs-5th/node_modules/
 threejs-5th/package-lock.json
 threejs-5th/package.json
+
+threejs-6th/node_modules/
+threejs-6th/package-lock.json
+threejs-6th/package.json
+
+text.txt
