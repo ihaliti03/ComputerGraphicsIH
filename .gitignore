@@ -4,24 +4,11 @@
 
 # Ignore other folders
 
-threejs-2nd/node_modules/
-threejs-2nd/package-lock.json
-threejs-2nd/package.json
-
-threejs-3rd/node_modules/
-threejs-3rd/package-lock.json
-threejs-3rd/package.json
-
-threejs-4th/node_modules/
-threejs-4th/package-lock.json
-threejs-4th/package.json
-
-threejs-5th/node_modules/
-threejs-5th/package-lock.json
-threejs-5th/package.json
-
-threejs-6th/node_modules/
-threejs-6th/package-lock.json
-threejs-6th/package.json
+**/node_modules/
+**/package-lock.json
+**/package.json
+!threejs-intro/node_modules/
+!threejs-intro/package-lock.json
+!threejs-intro/package.json
 
 text.txt
