@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Solar System Explorer VR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- A-Frame -->
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+
+    <!-- Custom assets -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="planetInfo"></div>
+
+    <a-scene background="color: black" sound="src: url('assets/space_ambience.mp3'); autoplay: true; loop: true; volume: 0.5">
+      <!-- Sun -->
+      <a-entity id="sun-system">
+        <a-sphere
+          id="sun"
+          position="0 1.5 -5"
+          radius="1"
+          src="assets/sun.jpg"
+          emissive="#FDB813"
+          animation="property: rotation; to: 0 360 0; loop: true; dur: 15000"
+        ></a-sphere>
+      </a-entity>
+
+      <!-- Planets -->
+      <a-entity id="planets"></a-entity>
+
+      <!-- Skybox -->
+      <a-sky src="assets/stars_milky_way.jpg"></a-sky>
+
+      <!-- Camera + Cursor -->
+      <a-entity id="cameraRig" position="0 1.6 0">
+        <a-camera>
+          <a-cursor fuse="true" fuse-timeout="1000" color="yellow"></a-cursor>
+        </a-camera>
+      </a-entity>
+    </a-scene>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
